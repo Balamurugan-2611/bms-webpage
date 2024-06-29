@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BMS Psychological Services</title>
+    <link rel="stylesheet" href="bscs.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bsabout.html">About</a></li>
+                <li><a href="bsservice.html">Services</a></li>
+                <li><a href="bsteam.html">Team</a></li>
+                <li><a href="bsfaq.html">FAQ</a></li>
+                <li><a href="bsblog.html">Blog</a></li>
+                <li><a href="bscs.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+
+            <div class="contact-info">
+                <h2>Our Office</h2>
+                <p>Address: 123  Street, City, Country</p>
+                <p>Email: info@bmspsychologicalservices.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+
+            <form action="submit.php" method="POST">
+                <h2>Send us a message</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BMS Psychological Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
